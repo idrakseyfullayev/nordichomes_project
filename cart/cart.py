@@ -64,4 +64,4 @@ class Cart(object):
         if str(product_id) in self.cart:
             return self.cart[str(product_id)]
         else:
-            None
+            return None
